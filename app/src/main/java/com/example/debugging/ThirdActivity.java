@@ -20,6 +20,7 @@ public class ThirdActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ThirdActivity.this,MainActivity.class);
+                startActivity(intent);
                 finish();
             }
         });

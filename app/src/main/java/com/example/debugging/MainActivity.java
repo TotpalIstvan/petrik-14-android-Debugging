@@ -51,5 +51,6 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = getSharedPreferences("Adatok", Context.MODE_PRIVATE);
         String seged = "";
         seged = sharedPreferences.getString("nev","Nincs elmentve a neved!");
+
     }
 }
