@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextName;
     private Button buttonBelepes;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,5 +49,7 @@ public class MainActivity extends AppCompatActivity {
         editTextName = findViewById(R.id.editTextName);
         buttonBelepes = findViewById(R.id.buttonNext);
         SharedPreferences sharedPreferences = getSharedPreferences("Adatok", Context.MODE_PRIVATE);
+        String seged = "";
+        seged = sharedPreferences.getString("nev","Nincs elmentve a neved!");
     }
 }

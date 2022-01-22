@@ -10,8 +10,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ird be a neved:"
-        android:textSize="30dp"
+        android:text="Írd be a neved:"
+        android:textSize="30sp"
         android:gravity="center"/>
 
     <EditText
@@ -20,7 +20,7 @@
         android:id="@+id/editTextName"
         android:layout_marginTop="30dp"
         android:hint="A neved"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textAlignment="center"
         android:gravity="center_horizontal" />
 
@@ -30,6 +30,6 @@
         android:id="@+id/buttonBelepes"
         android:layout_marginTop="50dp"
         android:text="Belépés"
-        android:textSize="30dp"/>
+        android:textSize="30sp"/>
 
 </LinearLayout>
