@@ -48,7 +48,5 @@ public class MainActivity extends AppCompatActivity {
         editTextName = findViewById(R.id.editTextName);
         buttonBelepes = findViewById(R.id.buttonNext);
         SharedPreferences sharedPreferences = getSharedPreferences("Adatok", Context.MODE_PRIVATE);
-        String seged = "";
-        seged = sharedPreferences.getString("nev","Nincs elmentve a neved!");
     }
 }
