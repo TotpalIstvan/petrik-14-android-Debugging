@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    //Toast.makeText(MainActivity.this, "A név mezőt kötelező kitölteni!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "A név mezőt kötelező kitölteni!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
